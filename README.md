@@ -1,4 +1,4 @@
-# R-Is-Spooky
+# trick-**R**-treat
 
 ## Pumpkin Carving with R by Jeff Wagner 
 ## October 20, 2020 
