@@ -1,7 +1,6 @@
 # R-Is-Spooky
 
-## Pumpkin Carving with R
-## Jeff Wagner 
+## Pumpkin Carving with R by Jeff Wagner 
 ## October 20, 2020 
 ### Adapted from the BMSC Blog (https://bmscblog.wordpress.com/) 
 
