@@ -3,18 +3,20 @@
 # --------------------------- Jeff Wagner --------------------------#
 # ------------------------ October 20, 2020 ------------------------#
 # -- Adapted from the BMSC Blog (https://bmscblog.wordpress.com/) --#
-# -------------------- Original by Allan Roberts -------------------#
 # ------------------------------------------------------------------#
 
+
+
 # Set the background and build our pumpkin
+dev.new(width=8,height=8,noRStudioGD = TRUE)
 par(bg=1, mar=c(0,0,0,0))
 plot(c(0,0), cex=0, xlim=c(-1,1), ylim=c(1.5,0))
 X <- runif(500,-1,1)
 Y <- runif(500,0,1)
 M <- rchisq(500,1)/20
 points(Y~X, cex=M, pch=19, col= "white") # let's make some stars to set the mood
-points(0,1.1, pch=19, col= "orange",cex=30) # now make our pumpkin 
-polygon(c(-0.06, -0.08, -0.02, 0.06), c(0.76, 0.59, 0.61, 0.76),  # don't forget the stem!
+points(0,1, pch=19, col= "orange",cex=50) # now make our pumpkin 
+polygon(c(-0.07, -0.08, -0.01, 0.07), c(0.65, 0.45, 0.45, 0.66),  # don't forget the stem!
         col= "darkgreen",
         border= "darkgreen",
         lwd=3, lty= "solid")
