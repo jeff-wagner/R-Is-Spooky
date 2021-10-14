@@ -1,11 +1,10 @@
 # R-Is-Spooky
 
-# ------------------------------------------------------------------#
-# --------------------- Pumpkin Carving with R ---------------------#
-# --------------------------- Jeff Wagner --------------------------#
-# ------------------------ October 20, 2020 ------------------------#
-# -- Adapted from the BMSC Blog (https://bmscblog.wordpress.com/) --#
-# ------------------------------------------------------------------#
+## Pumpkin Carving with R
+## Jeff Wagner 
+## October 20, 2020 
+### Adapted from the BMSC Blog (https://bmscblog.wordpress.com/) 
+
 
 This script is for carving your very own digital pumpkin with R!
 
